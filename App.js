@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {View, Button, NativeModules, StyleSheet} from 'react-native';
 import EmptyView from './ViewNative';
+// import CustomView from './CustomView';
+import {CustomView} from 'react-native-opensudoku';
 
 export default class App extends Component {
   render() {
@@ -12,7 +14,8 @@ export default class App extends Component {
             NativeModules.BasicModules.NavigatoNative();
           }}
         />
-        <EmptyView style={style.square} />
+        {/* <EmptyView style={style.square} /> */}
+        <CustomView style={{height: 200, width: 200}} />
       </View>
     );
   }

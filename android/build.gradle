@@ -27,6 +27,10 @@ allprojects {
             url("$rootDir/../node_modules/react-native/android")
         }
         maven {
+            // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+            url("$rootDir/../node_modules/react-native-opensudoku")
+        }
+        maven {
             // Android JSC is installed from npm
             url("$rootDir/../node_modules/jsc-android/dist")
         }
