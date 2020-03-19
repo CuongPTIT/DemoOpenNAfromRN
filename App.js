@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {View, Button, NativeModules, StyleSheet} from 'react-native';
 import EmptyView from './ViewNative';
-// import CustomView from './CustomView';
-import {CustomView} from 'react-native-opensudoku';
+import CustomView from './CustomView';
+// import {CustomView} from 'react-native-opensudoku';
 
 export default class App extends Component {
   render() {
