@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "react-native-opensudoku": "file:/home/react/DemoOpenNAfromRN/node_modules/react-native-opensudoku"
+    "react-native-opensudoku": "file:/home/react/DemoOpenNAfromRN/node_modules/react-native-opensudoku",
+    "react-native-youtube": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
